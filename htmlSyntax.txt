@@ -1,3 +1,98 @@
 Hypertext Markup Lanuage (HTML)
 
-The Tag Structure
+The Tag Structure:
+<tagname>Sample Text</tagname>
+
+Tag attribute:
+<tagname attribute="value">Sample Text</tagname>
+<tagname class id="first-element">
+<tagname class id="second-element">Second element</tagname>
+This allows us to identify an element in a document
+
+HTML elements reference:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+HTML document structure:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document title</title>
+  </head>
+  <body>
+    Text inside the HTML body tag
+  </body>
+</html>
+
+Heading
+<h1>,...,<h6> make sure you end them off with </h1>,...,</h6>
+
+Paragraph
+<p></p>
+
+Comments
+<!-- Inline comment -->
+<!--
+  Multiline comment
+  Multiline comment
+-->
+
+Containers
+  •<div>
+    - a generic container that has no effect until styled using CSS
+    - used to group content/layout so it can be easily styled
+  •<span>
+    - an inline container for phrasing content
+    - used to group elements for styling purposes
+    - can start anywhere in a line
+
+Line Break
+<br> makes a line break
+
+Horizontal Rule
+<hr> makes a thematic break
+
+Text Format
+HTML has some tags to describe how the text should be
+<strong></strong>
+
+Lists
+  Unordered list: order does not matter
+    <ul>
+      <li>First List Item</li>
+      <li>Second List Item</li>
+      <li>Third List Item</li>
+    </ul>
+  Ordered list: order matters
+    <ol>
+      <li>Order Item</li>
+      <li>Order Item</li>
+      <li>Order Item</li>
+    </ol>
+  Description/definition list
+    <dl>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+    </dl>
+
+Nested List: list within list, helpful to create site menues adding CSS
+<ul>
+  <li>Unordered list item</li>
+  <li>
+    <ol>
+      <li>Order list item</li>
+      <li>Order list item</li>
+      <li>Order list item</li>
+    </ol>
+  </li>
+</ul>
+
+Stopped at slide 15
+
+
+
+
+
+
+
+
+
