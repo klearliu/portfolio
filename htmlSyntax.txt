@@ -104,15 +104,9 @@ Mailto
 
 Anchor
   Using links to navigate to anchor points into a selected document parent
-
-  Step one: First we'll create a link with the anchor href
-  <a href="#news">News Section</a>
-
-  Step two: Then we need to create the anchor by using the name attribute
-  <a name="news"></a>
-
-  Step three: Initialize link
-  <a href="news.html#nhl"><NHL news section>
+  <a href="#example-anchor">link</a>
+  <h2 id="example-anchor">Anchored Section</h2>
+  <p>This is the section that the link above anchors to.</p>
 
 Images
   <img src="sample_picture.jpg">
