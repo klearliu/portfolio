@@ -12,6 +12,11 @@
     </head>
     <body>
 
+        <header>
+            <h1>HTML test only</h1>
+            <hr>
+        </header>
+
         <!--Headings-->
         <h1>h1 heading</h1>
         <h2>h2 heading</h2>
@@ -164,9 +169,10 @@
         <!--Form
             action = {to aid with backend}
             method = {GET (less sensitive data), POST (confidential data)}
+            enctype = when sending large data it will be sent in small parts
 
         -->
-        <form action="index.php" method="POST">
+        <form action="index.php" method="POST" enctype="multipart/form-data">
             <label for="username">Username</label>
             <input type="text" id="username"
             minlength="3" maxlength="15"required
@@ -188,9 +194,30 @@
             <br><label>Quantity</label>
             <input type ="number" id="quantity" min="0" max="99" value="1">
 
-            <label for ="Mr.">Title</label>
-            <input type ="radio" id="Mr." value="Mr.">
+            <br><label for="title">Title:</label>
+            <label for ="Mr.">Mr.</label>
+            <input type ="radio" id="Mr." value="Mr." name="title">
+            <label for ="Ms.">Ms.</label>
+            <input type ="radio" id="Ms." value="Ms." name="title">
+            <label for ="PhD.">PhD</label>
+            <input type ="radio" id="PhD." value="PhD." name="title">
 
+            <br><label for="dropdown">Payment:</label>
+            <select id="dropdown">
+                <option value="option1">Option #1</option>
+                <option value="option2">Option #2</option>
+                <option value="option3">Option #3</option>
+            </select>
+
+            <br><label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox">
+
+            <br><label for="textArea">Text Area:</label>
+            <textarea id="textArea" rows="3" cols="25"></textarea>
+
+            <br><label for="file">File:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+            
             <br><input type ="reset">
             <br><input type="submit">
 
@@ -214,6 +241,9 @@
             </div>
         </div>
 
-
+        <footer>
+            <hr>
+            &copy; Clear Liu 2024
+        </footer>
     </body>
 </html>
