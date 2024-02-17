@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(65, 65, 65);
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+#makeYellow{
+    color: yellow;
+}
+.odd{
+    color: red;
+}
+.even{
+    color: green;
+}
+#custom-font{
+    font-family: 'Courier New', arial, monospace;
+    font-size: 1em; /*1em is default. you can also adjust by _px*/
+    /*
+    font-weight
+    font-style
+
+    to create have your own custom font:display:
+    1) create /fonts and put your font inside (.ttf files)
+    2) at top of the stylesheet:
+        @font-face{
+            src: url(./fonts/{your .ttf files});
+            font-family: my-custom-font;
+        }
+    3) create more @font-face{...} as you wish
+    */
+}
+#bordered-paragraph{
+    border-style: solid;
+    border-width: 3;
+    border-color: red;
+    /* shortcut: 
+    border: 3px solid red;*/
+    border-radius: 3px;
+
+    /*
+    we can also customize our border individually
+    border-bottom: ...
+    border-top: ...
+    border-left: ...
+    border-right: ...
+    */
+}

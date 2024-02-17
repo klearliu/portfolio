@@ -4,19 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test CSS</title>
+    <!-- Linking css -->
     <link rel="stylesheet" href="test-CSS.css" />
   </head>
   <body>
-    <h1>This is an HTML page with CSS features</h1>
-
+    <h2>This is an HTML page with CSS features</h2>
+    <hr>
+    <h2>Styling using #{id_var}{...}</h2>
     <p>
-      This is test paragraph #1. The quick brown fox jumped over the lazy dog.
+      This is test paragraph #1.
     </p>
-    <p>
-      This is test paragraph #2. The quick brown fox jumped over the lazy dog.
+    <p id="makeYellow">This test paragraph #2
     </p>
-    <p>
-      This is test paragraph #3. The quick brown fox jumped over the lazy dog.
+    <hr>
+    <h2>Styling using .{class_var}{...}</h2>
+    <p class="odd">
+      This is test paragraph #1. The paragraph number is odd.
     </p>
+    <p class="even">
+      This is test paragraph #2. The paragraph number is even.
+    </p>
+    <p class="odd">
+      This is test paragraph #3. The paragraph number is odd.
+    </p>
+    <p class="even">
+      This is test paragraph #4. The paragraph number is even.
+    </p>
+    <p>to use class attribute we do .{var_name}{...}</p>
+    <hr>
+    <h2>Fonts (font-family:{choose your font})</h2>
+    <p id="custom-font">This is test paragraph #1.</p>
+    <hr>
+    <h2>Border</h2>
+    <p id="bordered-paragraph">This text is surrounded by a border</p>
+    <hr>
+    <h2>Text Shadow & Boxed Shadow</h2>
+    <p id="shadow-paragrph">This text is shadow paragraph</p>
+    <p id="box-shadow-paragrph">This text is box shadow paragraph</p>
   </body>
+
+  <!-- Tutorial ended at: 
+  https://youtu.be/HGTJBPNC-Gw?feature=shared&t=6427-->
 </html>
