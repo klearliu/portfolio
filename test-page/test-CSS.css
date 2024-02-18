@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(100, 100, 100);
 }
 h1{
     color: white;
@@ -14,7 +14,7 @@ h2{
     color: red;
 }
 .even{
-    color: green;
+    color: yellow;
 }
 #custom-font{
     font-family: 'Courier New', arial, monospace;
