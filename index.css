@@ -1,46 +1,47 @@
-// header
+/* header */
 .header {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .header-column {
-	flex: 1;
+  flex: 1;
 }
 
-home-page-button{
-	padding: 15px 32px;
-	text-align: center;
-	border-radius: 5px;
+home-page-button {
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-nav, button{
-	display: block;
+nav,
+button {
+  display: block;
 }
 
-.section{
-	width: 100%;
+.section {
+  width: 100%;
 }
 
-#section1{
-	background-color: white;
+#section1 {
+  background-color: white;
 }
 
-#section2{
-	background-color: lightgray;
+#section2 {
+  background-color: lightgray;
 }
 
-#section3{
-	background-color: white;
+#section3 {
+  background-color: white;
 }
 
-#section4{
-	background-color: lightgray;
+#section4 {
+  background-color: lightgray;
 }
 
-#section5{
-	background-color: white;
+#section5 {
+  background-color: white;
 }
 
-#section6{
-	background-color: lightgray;
+#section6 {
+  background-color: lightgray;
 }
